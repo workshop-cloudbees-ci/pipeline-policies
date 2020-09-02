@@ -1,0 +1,11 @@
+[ {
+  "action" : "fail",
+  "customMessage" : "",
+  "description" : "",
+  "filter" : "",
+  "name" : "Timeout policy",
+  "rules" : [ {
+    "$class" : "EntirePipelineTimeoutRule",
+    "maxTime" : 60
+  } ]
+} ]
