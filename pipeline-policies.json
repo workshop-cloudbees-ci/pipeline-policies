@@ -6,6 +6,6 @@
   "name" : "Timeout policy",
   "rules" : [ {
     "$class" : "EntirePipelineTimeoutRule",
-    "maxTime" : 30
+    "maxTime" : 60
   } ]
 } ]
